@@ -1,0 +1,154 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 40px 0px;
+    color: white;
+}
+
+h2 {font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+}
+
+.nav-item {
+    padding: 0px 15px;
+    font-size: 20px;
+}
+
+.ml-auto {
+    position: absolute;
+    right: 0px;
+}
+
+.download-button {
+    margin: 0px 5px;
+}
+
+.title-img {
+    margin-top: 40px;
+    padding-left: 60px;
+    transform: rotate(25deg);
+    width: 60%;
+   position: absolute;
+
+}
+
+.fluid-container {
+    padding: 3% 15% 5%;
+}
+
+#title {
+    background-color: #ff4c68;
+    
+}
+
+/* features section*/
+
+#features {
+    background-color: white;
+    padding: 7% 10%;
+    position: relative;
+    z-index: 1;
+}
+
+.content {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+
+
+p {
+    color: #8f8f8f;
+}
+
+/* testimonials */
+
+#testimonials {
+
+    background-color: #ef8172;
+    text-align: center;
+    color: white;
+}
+
+.testimonial-text {
+
+    padding: 5% 10% 5% 10%;
+}
+
+.profile {
+
+    border-radius: 100%;
+    width: 80px;
+}
+
+.press-logo {
+    width: 150px;
+    margin: 60px 15px;
+}
+
+/* pricing-section */
+
+#pricing{
+    padding: 3%;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.pricing-column{
+    margin: 5% 3%;
+}
+
+@media (max-width: 990px){
+
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
+/* Call to action section */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    padding: 3% 26% 8%;
+}
+.action-btn{
+    margin: 35px 10px 0px;
+    
+}
+
+/* footer section */
+
+#footer{
+    text-align: center;
+    padding: 5% 0%;
+}
+.social-icon{
+    margin: 5px;
+    text-decoration: none;
+    color: rgb(71, 66, 66);
+}
